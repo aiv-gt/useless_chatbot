@@ -145,16 +145,16 @@ The frontend is configured to send requests to the local FastAPI server at `http
 
 ## Features
 
-- 💀 Intentionally useless responses
-- 🧠 Category-based message detection
-- 😭 Different emotional reactions
-- 😂 Local reaction memes
+- Intentionally useless responses
+- Category-based message detection
+- Different emotional reactions
+- Local reaction memes
 - 🇮🇳 Malayalam/Manglish-style phrase support
-- 🤨 Special handling for questions
-- 🔄 New Chat option
-- 🌐 Browser-based frontend
-- ⚡ FastAPI backend API
-- 🛠️ Easy-to-edit response and category files
+- Special handling for questions
+- New Chat option
+- Browser-based frontend
+- FastAPI backend API
+- Easy-to-edit response and category files
 
 ## Project Structure
 
@@ -181,6 +181,10 @@ hmm/
 
 ## Screenshots
 
+### Landing Page
+
+![Chatbot Response](screenshots/landing-page.jpg)
+
 ### Main Chat Interface
 
 ![Main Chat Interface](screenshots/chat-interface.jpg)
@@ -188,12 +192,6 @@ hmm/
 ### Chatbot Conversation
 
 ![Chatbot Conversation](screenshots/chat-conversation.jpg)
-
-### Chatbot Response
-
-![Chatbot Response](screenshots/chat-response.jpg)
-
-> **Note:** The screenshot files are shown here using their intended repository paths. Add the three attached screenshots to the `screenshots/` folder with these filenames to make them render on GitHub.
 
 ## Team Contributions
 
