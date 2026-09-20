@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Useless Chatbot</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- =====================================================
+         START SCREEN
+         ===================================================== -->
+
+    <div id="start-screen">
+
+        <img
+            src="logo.jpg"
+            alt="Useless Chatbot"
+            class="start-logo"
+        >
+
+        <h1>USELESS CHATBOT</h1>
+
+        <p>Your completely unnecessary AI companion.</p>
+
+        <button id="start-button" type="button">
+            START CHATTING
+        </button>
+
+    </div>
+
+
+    <!-- =====================================================
+         MAIN APPLICATION
+         ===================================================== -->
+
+    <div class="app">
+
+        <!-- SIDEBAR -->
+        <aside class="sidebar">
+
+            <div class="sidebar-header">
+
+                <div class="brand">
+                    <img
+                        src="logo.jpg"
+                        alt="Useless Chatbot"
+                        class="brand-logo"
+                    >
+                </div>
+
+                <button
+                    class="sidebar-toggle"
+                    id="sidebar-toggle"
+                    type="button"
+                    aria-label="Toggle sidebar"
+                >
+                    ☰
+                </button>
+
+            </div>
+
+
+            <button
+                class="new-chat-button"
+                id="new-chat"
+                type="button"
+            >
+                <span>＋</span>
+                <span>New chat</span>
+            </button>
+
+
+            <div class="sidebar-section">
+
+                <div class="section-title">
+                    Chats
+                </div>
+
+                <div
+                    id="chat-history"
+                    class="chat-history"
+                >
+                </div>
+
+            </div>
+
+
+            <div class="sidebar-bottom">
+
+                <button
+                    class="sidebar-item"
+                    type="button"
+                >
+                    <span>⚙</span>
+                    <span>Settings</span>
+                </button>
+
+            </div>
+
+        </aside>
+
+
+        <!-- =================================================
+             MAIN CHAT AREA
+             ================================================= -->
+
+        <main class="main">
+
+            <section
+                class="chat-area"
+                id="chat-area"
+            >
+
+                <!-- EMPTY STATE -->
+
+                <div
+                    class="empty-state"
+                    id="empty-state"
+                >
+
+                    <div class="empty-title">
+                        What can I help you with?
+                    </div>
+
+                    <div class="empty-subtitle">
+                        Ask anything and start a conversation.
+                    </div>
+
+                </div>
+
+
+                <!-- MESSAGES -->
+
+                <div
+                    class="messages"
+                    id="chat-box"
+                >
+                </div>
+
+            </section>
+
+
+            <!-- =================================================
+                 MESSAGE INPUT
+                 ================================================= -->
+
+            <div class="input-wrapper">
+
+                <form
+                    id="chat-form"
+                    class="input-container"
+                >
+
+                    <button
+                        type="button"
+                        class="attach-button"
+                        aria-label="Add attachment"
+                    >
+                        ＋
+                    </button>
+
+
+                    <input
+                        id="message-input"
+                        type="text"
+                        placeholder="Ask anything"
+                        autocomplete="off"
+                    >
+
+
+                    <button
+                        type="submit"
+                        class="send-button"
+                        aria-label="Send message"
+                    >
+                        ↑
+                    </button>
+
+                </form>
+
+            </div>
+
+        </main>
+
+    </div>
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
